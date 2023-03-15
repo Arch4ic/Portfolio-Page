@@ -1,0 +1,157 @@
+.homePage {
+	background-color: rgb(16, 27, 44);;
+	border-bottom: dashed #04AA6D;
+	height: 1000px;
+	width: 100%;
+}
+.aboutPage {
+	background-color: rgb(16, 27, 44);
+	border-bottom: dashed #04AA6D;
+	margin-top: 150px;
+	height: 100%;
+	width: 100%;
+}
+.workPage {
+	background-color: rgb(16, 27, 44);
+	border-bottom: dashed #04AA6D;
+	margin-top: 150px;
+	height: 100%;
+	width: 100%;
+}
+.contactPage {
+	background-color: rgb(16, 27, 44);
+	height: 100%;
+	width: 100%;
+
+}
+
+.home3 {
+	margin-top: 15%;
+	font-size: 100px;
+	color: white;
+}
+
+.container {
+	display:flex;
+	justify-content: center;
+}
+.aboutContainer {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.contactContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.pContainer {
+	float: right;
+	margin-right: 15%;
+	margin-left: 5%;
+}
+.picture {
+	width: 700px;
+	height: 350px;
+ 	margin-left: 15%;
+	margin-right: 5%;
+	float: left;
+}
+
+button.home {
+  background-color: navy;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+	min-height: 30px;
+	min-width: 100px;
+}
+
+
+.btn1 {
+  background-color: red;
+	border-radius: 10%;
+	margin-top: 100px;
+	margin-right: 5px;
+	color: white;
+	padding: 20px 20px;
+	display: inline-block;
+	min-height: 80px;
+	min-width: 120px;
+}
+
+.btn2 {
+  background-color: green;
+	border-radius: 10%;
+	margin-top: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: white;
+	padding: 20px 20px;
+	display: inline-block;
+	min-height: 80px;
+	min-width: 120px;
+}
+
+.btn3 {
+  background-color: blue;
+	border-radius: 10%;
+	margin-top: 100px;
+	margin-left: 5px;
+	color: white;
+	padding: 20px 20px;
+	display: inline-block;
+	min-height: 80px;
+	min-width: 120px;
+}
+
+.ghButton {
+	display: inline-block;
+	margin-right: 25px;
+	margin-bottom: 100px;
+	background-image: url('../images/icons/ghIcon.png');
+	min-height: 96px;
+	min-width: 96px;
+}
+
+.fbButton {
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 100px;
+	background-image: url('../images/icons/fbIcon.png');
+	min-height: 96px;
+	min-width: 96px;
+}
+
+.gmButton {
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 100px;
+	background-image: url('../images/icons/gmailIcon.png');
+	min-height: 96px;
+	min-width: 96px;
+}
+
+.linkButton {
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 100px;
+	background-image: url('../images/icons/linkIcon.png');
+	min-height: 96px;
+	min-width: 96px;
+}
+
+.shareButton {
+	display: inline-block;
+	margin-left: 25px;
+	margin-bottom: 100px;
+	background-image: url('../images/icons/shareIcon.png');
+	min-height: 96px;
+	min-width: 96px;
+
+}

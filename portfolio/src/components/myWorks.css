@@ -1,0 +1,41 @@
+table {
+  border: 3px solid;
+  border-color: black;
+  background-color: rgb(66, 71, 80);
+  margin-bottom: 150px;
+	width: 1000px;
+	height: 300px;
+}
+
+th {
+  font-size: 22px;
+  color: white;
+  border: 3px solid;
+  border-color: black;
+}
+
+td {
+  color: white;
+  font-size: 20px;
+  border: 3px solid;
+  border-color: black;
+	text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.tdButton {
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+.tableHead {
+  background-color: #04AA6D;
+
+}
