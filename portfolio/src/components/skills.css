@@ -1,0 +1,23 @@
+/* Container for skill bars */
+.containers {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.react {width: 55%; background-color: #04AA6D;} /* Green */
+.css {width: 10%; background-color: #2196F3;} /* Blue */
+.js {width: 30%; background-color: #f44336;} /* Red */
+.other {width: 5%; background-color: #808080; margin-bottom: 200px;} /* Dark Grey */
+
+.pskills {
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
