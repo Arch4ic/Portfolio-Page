@@ -1,6 +1,6 @@
 import React from 'react'
 import './Page.css'
-import me from '../images/me.jpeg'
+import me from '../images/me2.jpeg'
 import Skills from '../components/skills'
 
 const About = () => {

@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const baseUrl = 'https://api.github.com/users/Arch4ic/repos'
+const baseUrl = 'http://localhost:3003/api/repos'
 
 const getAll = async () => {
   try {

@@ -16,8 +16,8 @@ const Works = ({ repos }) => {
               {repos.map(repo => {
                 return (
                   <tr key={repo.id}>
-                    <td><Button styling='tdButton' link={repo.html_url}name={repo.name}></Button></td>
-                    <td>{repo.html_url}</td>
+                    <td><Button styling='tdButton' link={repo.url}name={repo.name}></Button></td>
+                    <td>{repo.url}</td>
                   </tr>
                 )
               })}
