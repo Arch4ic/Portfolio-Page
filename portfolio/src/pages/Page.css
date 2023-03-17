@@ -1,25 +1,26 @@
 .homePage {
-	background-color: rgb(16, 27, 44);;
+	background-color: #101B2C;
 	border-bottom: dashed #04AA6D;
 	height: 1000px;
 	width: 100%;
 }
 .aboutPage {
-	background-color: rgb(16, 27, 44);
+	background-color: #101B2C;
 	border-bottom: dashed #04AA6D;
 	margin-top: 150px;
 	height: 100%;
 	width: 100%;
 }
 .workPage {
-	background-color: rgb(16, 27, 44);
+	background-color: #101B2C;
 	border-bottom: dashed #04AA6D;
-	margin-top: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	height: 100%;
 	width: 100%;
 }
 .contactPage {
-	background-color: rgb(16, 27, 44);
+	background-color: #101B2C;
 	height: 100%;
 	width: 100%;
 
@@ -31,17 +32,27 @@
 	color: white;
 }
 
-.container {
-	display:flex;
+.workContainer {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 25%;
+	margin-right: 25%;
+	display: block;
 	justify-content: center;
 }
+
 .aboutContainer {
+	margin-left: 20%;
+	margin-right: 20%;
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
 }
 
 .contactContainer {
+	height: 140px;
+	margin-top: 50px;
+	background-color: #04AA6D;
 	display: flex;
 	justify-content: center;
 }
@@ -52,15 +63,18 @@
 	margin-left: 5%;
 }
 .picture {
-	width: 800px;
-	height: 360px;
- 	margin-left: 15%;
-	margin-right: 5%;
+	border: 2px solid #04AA6D;
+	border-radius: 2%;
+	margin-right: 25px;
+	max-width: 500px;
+	max-height: 350px;
+	width: 500px;
+	height: 350px;
 	float: left;
 }
 
 button.home {
-  background-color: navy;
+  background-color: #101B2C;
   color: white;
   padding: 20px 30px;
   border-radius: 10px;
@@ -109,8 +123,9 @@ button.home {
 
 .ghButton {
 	display: inline-block;
-	margin-right: 25px;
-	margin-bottom: 100px;
+	margin-top: 22px;
+	margin-right: 50px;
+	margin-bottom: 22px;
 	background-image: url('../images/icons/ghIcon.png');
 	min-height: 96px;
 	min-width: 96px;
@@ -118,9 +133,10 @@ button.home {
 
 .fbButton {
 	display: inline-block;
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-bottom: 100px;
+	margin-top: 22px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 22px;
 	background-image: url('../images/icons/fbIcon.png');
 	min-height: 96px;
 	min-width: 96px;
@@ -128,9 +144,10 @@ button.home {
 
 .gmButton {
 	display: inline-block;
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-bottom: 100px;
+	margin-top: 22px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 22px;
 	background-image: url('../images/icons/gmailIcon.png');
 	min-height: 96px;
 	min-width: 96px;
@@ -138,9 +155,10 @@ button.home {
 
 .linkButton {
 	display: inline-block;
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-bottom: 100px;
+	margin-top: 22px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 22px;
 	background-image: url('../images/icons/linkIcon.png');
 	min-height: 96px;
 	min-width: 96px;
@@ -148,8 +166,9 @@ button.home {
 
 .shareButton {
 	display: inline-block;
+	margin-top: 22px;
 	margin-left: 25px;
-	margin-bottom: 100px;
+	margin-bottom: 22px;
 	background-image: url('../images/icons/shareIcon.png');
 	min-height: 96px;
 	min-width: 96px;

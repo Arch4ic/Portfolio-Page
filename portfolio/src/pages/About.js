@@ -3,10 +3,11 @@ import './Page.css'
 import me from '../images/me2.jpeg'
 import Skills from '../components/skills'
 
+// about me page
 const About = () => {
   return(
     <div className='aboutPage'>
-        <h3 style={{color: 'white', fontSize: '40px', marginBottom: '50px'}}>ABOUT</h3>
+        <h3 style={{color: 'white', fontSize: '70px', marginBottom: '50px'}}>ABOUT</h3>
         <div className='aboutContainer'>
         <img className='picture' src ={me} alt='blankimg' />
         <div className='pContainer'>

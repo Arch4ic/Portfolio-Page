@@ -15,7 +15,9 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^7.0.2"
+    "mongoose": "^7.0.2",
+    "multiparty": "^4.2.3",
+    "nodemailer": "^6.9.1"
   },
   "devDependencies": {
     "eslint": "^8.36.0",

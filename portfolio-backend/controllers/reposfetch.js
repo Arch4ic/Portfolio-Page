@@ -6,15 +6,13 @@ const baseUrl = 'https://api.github.com/users/Arch4ic/repos'
 const fetch = async () => {
   try {
     const response = await axios.get(baseUrl)
-    console.log(response.data)
     const repos = response.data.map(repo => ({
       id: repo.id,
       name: repo.name,
       description: repo.description,
       url: repo.html_url
     }))
-    const savedRepos = await Repo.insertMany(repos)
-    console.log(savedRepos)
+    await Repo.updateMany({}, { repos }, { upsert: true })
   } catch (error) {
     console.error(error)
   }

@@ -1,12 +1,13 @@
 import React from 'react'
 import './myWorks.css'
 import Button from './Button'
-
+ 
+/* component to create table for fetched repositories */
 const Works = ({ repos }) => {
   console.log(repos)
   return(
     <div>
-      <div className='container'>
+      <div>
         <table>
           <tbody>
             <tr className='tableHead'>
@@ -15,7 +16,7 @@ const Works = ({ repos }) => {
             </tr>
               {repos.map(repo => {
                 return (
-                  <tr key={repo.id}>
+                  <tr key={repo.id} className='trBody'>
                     <td><Button styling='tdButton' link={repo.url}name={repo.name}></Button></td>
                     <td>{repo.url}</td>
                   </tr>
