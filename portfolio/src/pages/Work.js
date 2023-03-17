@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react'
 import getAll from '../services/repos'
 import Works from '../components/myWorks'
 
+
+// page to show my repositories 
 const Work = () => {
 
   const [repos, setRepos] = useState([])
@@ -21,8 +23,10 @@ const Work = () => {
 
   return (
     <div className='workPage'>
-      <h3 style={{color: 'white', fontSize: '40px', marginBottom: '50px'}}>MY WORKS</h3>
-      <Works repos={repos} />
+      <div className='workContainer'>
+        <h3 style={{color: 'white', fontSize: '70px', marginBottom: '50px'}}>MY WORKS</h3>
+        <Works repos={repos} />
+      </div>
     </div>
   )
 }

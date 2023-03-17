@@ -1,11 +1,14 @@
 import React from 'react'
 import './Page.css';
 import Button from '../components/Button';
+import ContactForm from '../components/contactform';
 
+// page for contact information
 const Contact = () => {
   return (
     <div className='contactPage'>
-      <h3 style={{color: 'white', fontSize: '40px'}}>CONTACT</h3>
+      <h3 style={{color: 'white', fontSize: '70px'}}>CONTACT</h3>
+      <ContactForm />
       <div className='contactContainer'>
         <Button styling='ghButton' link='https://github.com/Arch4ic'></Button>
         <Button styling='fbButton' link='https://www.facebook.com/emil.mustonen/'></Button>
