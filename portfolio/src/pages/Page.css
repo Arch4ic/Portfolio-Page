@@ -82,6 +82,13 @@ h2 {
 	font-size: 4rem;
 	color: white;
 }
+.pabout {
+	color: white;
+	font-size: 1.5rem;
+}.pabout2 {
+	color: white;
+	font-size: 1.5rem;
+}
 
 .ghButton {
 	margin-top: 2%;
@@ -121,14 +128,27 @@ h2 {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 	.aboutContainer{
-		margin-left: 5%;
-		margin-right: 5%;
+		margin-left: 2%;
+		margin-right: 2%;
 		display: block;
 		width: 100%;
 	}
-	.picture{
-		
+	.pabout {
+		margin-left: 1%;
+		margin-right: 1%;
+		font-size: 1rem;
+	}
+	.pabout2 {
+		margin-left: 2%;
+		margin-right: 2%;
+		font-size: 1rem;
+	}
+	h3 {
+		font-size: 4rem;
+	}
+	h2 {
+		font-size: 3rem;
 	}
 }
