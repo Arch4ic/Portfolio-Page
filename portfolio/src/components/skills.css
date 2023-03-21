@@ -11,8 +11,8 @@
 }
 
 .react {width: 55%; background-color: #04AA6D;} /* Green */
-.css {width: 10%; background-color: #2196F3;} /* Blue */
-.js {width: 30%; background-color: #f44336;} /* Red */
+.css {width: 5%; background-color: #2196F3;} /* Blue */
+.js {width: 35%; background-color: #f44336;} /* Red */
 .other {width: 5%; background-color: #808080; margin-bottom: 150px;} /* grey */
 
 .pskills {

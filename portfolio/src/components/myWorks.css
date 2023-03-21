@@ -9,12 +9,12 @@ table {
   background-color: #04AA6D;
 }
 .trBody:nth-child(even){
-  height: 80px;
+  height: 50px;
   background-color: #5b52ad;
 }
 
 .trBody:nth-child(odd) {
-  height: 80px;
+  height: 50px;
   background-color:#453e83;
 }
 
@@ -24,7 +24,7 @@ th {
 }
 
 td {
-  height: 80px;
+  height: 60px;
   color: white;
   font-size: 20px;
 	text-align: center;

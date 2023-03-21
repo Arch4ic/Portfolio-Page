@@ -1,10 +1,10 @@
 const mongoose = require('mongoose')
 
 const repoSchema = mongoose.Schema({
-  id: Number,
-  description: String,
-  name: String,
-  url: String
+  id: { type: String, unique: true },
+  description: { type: String },
+  name: { type: String, unique: true },
+  url: { type: String, unique: true }
 })
 
 repoSchema.set('toJSON', {
