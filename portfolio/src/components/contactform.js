@@ -19,7 +19,7 @@ const ContactForm = () => {
     
     try {
       toast("Message sent!")
-      await axios.post('http://localhost:3003/api/email', conForm)
+      await axios.post('api/email', conForm)
     } catch (error) {
       console.log(error)
     }
