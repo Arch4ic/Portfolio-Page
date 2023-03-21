@@ -38,3 +38,14 @@ label {
   min-height: 40px;
   min-width: 80px;
 }
+
+@media screen and (max-width: 600px) {
+  .input1 {
+      height: 10%;
+      width: 100%;
+  }
+  .input2 {
+    height: 10%;
+    width: 100%;
+  }
+}
