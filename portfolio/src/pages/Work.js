@@ -23,8 +23,8 @@ const Work = () => {
 
   return (
     <div className='workPage'>
+      <h2>MY WORKS</h2>
       <div className='workContainer'>
-        <h3 style={{color: 'white', fontSize: '70px', marginBottom: '50px'}}>MY WORKS</h3>
         <Works repos={repos} />
       </div>
     </div>

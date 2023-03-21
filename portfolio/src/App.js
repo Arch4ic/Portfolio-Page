@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.css';
-import { Main } from './pages'
+import { Home, About, Work, Contact } from './pages'
 
 function App() {
 	return (
 		<div className='appContainer'>
-			<Main />
+			<Home />
+    	<About />
+    	<Work />
+    	<Contact />
 		</div>
 	);
 }
