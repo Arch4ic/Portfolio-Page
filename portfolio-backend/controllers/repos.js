@@ -1,9 +1,13 @@
 const reposRouter = require('express').Router()
 const Repo = require('../models/repo')
 
-reposRouter.get('/', async ( request, response ) => {
-  const repos = await Repo.find({})
-  response.json(repos)
+reposRouter.get('/', async ( request, response, next) => {
+  try {
+    const repos = await Repo.find({})
+    response.json(repos)
+  } catch (error) {
+    next(error)
+  }
 })
 
 reposRouter.post('/', async ( request, response, next ) => {
