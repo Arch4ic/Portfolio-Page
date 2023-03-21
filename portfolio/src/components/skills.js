@@ -10,11 +10,11 @@ const Skills = () => {
       </div>
       <p className='pskills'>JS</p>
       <div className='containers'>
-        <div className='skills js'>30%</div>
+        <div className='skills js'>35%</div>
       </div>
       <p className='pskills'>CSS</p>
       <div className='containers'>
-        <div className='skills css'>10%</div>
+        <div className='skills css'>5%</div>
       </div>
       <p className='pskills'>Other</p>
       <div className='containers'>

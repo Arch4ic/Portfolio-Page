@@ -1,13 +1,14 @@
 .homePage {
 	background-color: #101B2C;
 	border-bottom: dashed #04AA6D;
-	height: 1000px;
+	height: 800px;
 	width: 100%;
 }
 .aboutPage {
 	background-color: #101B2C;
 	border-bottom: dashed #04AA6D;
-	margin-top: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	height: 100%;
 	width: 100%;
 }

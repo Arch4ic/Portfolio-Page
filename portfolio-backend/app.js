@@ -5,8 +5,8 @@ const cors = require('cors')
 const mongoose = require('mongoose')
 
 const reposRouter = require('./controllers/repos')
+const fetch = require('./utils/reposfetch')
 const mailRouter = require('./controllers/mailrouter')
-const fetchdata = require('./controllers/reposfetch')
 const middleware = require('./utils/middleware')
 const logger = require('./utils/logger')
 
@@ -29,9 +29,8 @@ app.use(middleware.requestLogger)
 
 app.use('/api/repos', reposRouter)
 app.use('/api/email', mailRouter)
-app.use(fetchdata.fetch)
-fetchdata.fetch()
 app.use(middleware.unkownEndpoint)
 app.use(middleware.errorHandler)
 
+fetch.fetch()
 module.exports = app
