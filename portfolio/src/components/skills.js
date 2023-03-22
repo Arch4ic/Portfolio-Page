@@ -1,6 +1,7 @@
 import React from 'react'
 import './skills.css'
- /* skill bars */
+
+ /* skill bars component */
 const Skills = () => {
   return(
     <div>

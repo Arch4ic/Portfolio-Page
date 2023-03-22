@@ -18,8 +18,8 @@ const ContactForm = () => {
     }
     
     try {
-      toast("Message sent!")
-      await axios.post('api/email', conForm)
+      toast("Message sent!") // creates small popup window to inform user that their messages was successfully sent
+      await axios.post('api/email', conForm) // here we send post request to backend api/email endpoint
     } catch (error) {
       console.log(error)
     }

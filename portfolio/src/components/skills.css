@@ -1,5 +1,7 @@
+/* CSS for skillbars */
+
 .containers {
-  width: 100%; /* Full width */
+  width: 80%; /* Full width */
   background-color: #ddd; /* Grey background */
 }
 
@@ -13,7 +15,7 @@
 .react {width: 55%; background-color: #04AA6D;} /* Green */
 .css {width: 5%; background-color: #2196F3;} /* Blue */
 .js {width: 35%; background-color: #f44336;} /* Red */
-.other {width: 5%; background-color: #808080; margin-bottom: 150px;} /* grey */
+.other {width: 5%; background-color: #808080; margin-bottom: 10%;} /* grey */
 
 .pskills {
   color: white;
@@ -21,6 +23,7 @@
   margin-top: 5px;
 }
 
+ /* settings that apply for mobile devices */
 @media screen and (max-width: 750px) {
   .containers {
     width: 100%;

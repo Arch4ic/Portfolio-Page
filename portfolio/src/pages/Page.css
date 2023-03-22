@@ -1,3 +1,4 @@
+/* Main css for website */
 .homePage {
 	background-color: #101B2C;
 	border-bottom: dashed #04AA6D;
@@ -128,10 +129,11 @@ h2 {
 
 }
 
+ /* settings that apply for mobile devices */
 @media screen and (max-width: 750px) {
 	.aboutContainer{
 		display: block;
-		width: 100%;
+		width: 80%;
 	}
 	.pabout {
 		margin-left: 1%;

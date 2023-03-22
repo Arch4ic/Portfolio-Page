@@ -1,7 +1,7 @@
 import './Page.css';
 import React from 'react'
 
-// home page
+// home page aka landing page for website
 const Home = () => {
   return (
   <div className='homePage'>

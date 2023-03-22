@@ -3,7 +3,9 @@ const mailRouter = require('express').Router()
 const nodemailer = require('nodemailer')
 
 
-
+/* When frontend sends post request it is handled here
+  with nodemailer we send email from me to me containing data from email contact form
+*/
 async function mainMail(name, email, message, response) {
   const transporter = await nodemailer.createTransport({
     service: 'gmail',

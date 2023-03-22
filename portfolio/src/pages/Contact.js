@@ -3,7 +3,7 @@ import './Page.css';
 import Button from '../components/Button';
 import ContactForm from '../components/contactform';
 
-// page for contact information
+// page for contact information first button is for github, second for linkedin and last one is for linktree
 const Contact = () => {
   return (
     <div className='contactPage'>

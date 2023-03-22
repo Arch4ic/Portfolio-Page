@@ -1,3 +1,5 @@
+/* email form CSS */
+
 .confom {
   min-height: 100px;
 }
@@ -39,6 +41,7 @@ label {
   min-width: 80px;
 }
 
+ /* settings that apply for mobile devices */
 @media screen and (max-width: 750px) {
   .input1 {
       height: 10%;

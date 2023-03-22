@@ -1,6 +1,7 @@
 const reposRouter = require('express').Router()
 const Repo = require('../models/repo')
 
+// Here we get all repositories from database
 reposRouter.get('/', async ( request, response, next) => {
   try {
     const repos = await Repo.find({})
@@ -10,6 +11,7 @@ reposRouter.get('/', async ( request, response, next) => {
   }
 })
 
+// Repositories can be added manually with this
 reposRouter.post('/', async ( request, response, next ) => {
   const body = request.body
 
@@ -27,6 +29,9 @@ reposRouter.post('/', async ( request, response, next ) => {
   }
 })
 
+/* This endpoint is to add data to specific item in collection
+  If data already exists it checks if any of the field has changed and if so it will update them. If data doesn't exist yet new item is create in the collection
+*/
 reposRouter.post('/:id', async (request, response, next) => {
   const { id } = request.params
   const { name, description, url } = request.body

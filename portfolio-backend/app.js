@@ -1,3 +1,5 @@
+/* here we bring backend together and connect to database */
+
 const config = require('./utils/config')
 const express = require('express')
 const app = express()
@@ -14,14 +16,15 @@ mongoose.set('strictQuery', false)
 
 logger.info('connecting to', config.MONGODB_URI)
 
-mongoose.connect(config.MONGODB_URI)
-  .then(() => {
+async function connect () {
+  try {
+    await mongoose.connect(config.MONGODB_URI)
     logger.info('connected to MongoDB')
-  })
-  .catch((error) => {
+  } catch (error) {
     logger.error('error connection to MongoDB:', error.message)
-  })
+  }}
 
+connect()
 app.use(cors())
 app.use(express.static('build'))
 app.use(express.json())
