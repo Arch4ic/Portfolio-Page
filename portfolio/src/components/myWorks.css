@@ -1,3 +1,5 @@
+/* CSS for table that contains repos */
+
 table {
   width: 1000px;
   height: 400px;
@@ -18,7 +20,7 @@ th, td {
   color: white;
   background-color: #04AA6D;
 }
-
+ /* settings that apply for mobile devices */
 @media screen and (max-width: 750px) {
   table {
     width: 100%;
@@ -30,5 +32,11 @@ th, td {
     font-size: 1rem;
     display: block;
     width: 100%;
+  }
+}
+ /* setting that start applying for devices larger than mobile e.g. tablets but limit so normal monitors are using standard css */
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  table{
+    width: 700px;
   }
 }

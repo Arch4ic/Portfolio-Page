@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 
+// model creation for repositories collection
 const repoSchema = mongoose.Schema({
   id: { type: String, unique: true },
   description: { type: String },

@@ -1,3 +1,5 @@
+/* middleware to handle errors */
+
 const logger = require('./logger')
 
 const requestLogger = (request, response, next) => {
